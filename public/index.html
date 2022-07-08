@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>My Node Web app</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="jquery/dist/jquery.min.js"></script>
+        <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body> 
+        <div class="mt-4 p-5 bg-dark text-white rounded">
+           <h1>EMPLOYEE FORM</h1>
+           <h6>for personal details</h6>
+        </div><center>
+           
+        <h3>Emp Form</h3>
+        <div id="form">
+           
+            <form action="dbpages/emp" method="post">
+                <table>
+                    <tr>
+                        <th>Sno</th>
+                        <td><input type="text" name="sno"></td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <th>Designation</th>
+                        <td><input type="text" name="Designation"></td>
+                    </tr>
+                    <th>Age</th>
+                        <td><input type="text" name="age"></td>
+                    </tr>
+                    <tr>
+                       
+                        <td style="text-align: center;" colspan=2>
+                           <button type="submit" class="btn btn-success">Add Person</button>
+                        </td>
+                    </tr>
+    
+                </table>
+             </form>
+             <iframe src="dbpages/emp" style="height: 400px; overflow: scroll; width: 1000px;"></iframe>
+            
+            </center>
+            
+    </body>
+</html>

@@ -1,0 +1,10 @@
+th,td{
+    width: 200px;
+    height: 30px;
+    padding:5px;
+    padding-bottom: 30px;
+}
+table{
+    margin: 30px;
+    border: 5px solid green;
+}

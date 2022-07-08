@@ -1,0 +1,23 @@
+html
+    head
+        title pug document
+        link(rel="stylesheet",href="../index.css")
+        link(rel="stylesheet",href="../bootstrap/dist/css/bootstrap.min.css")
+    body
+        h1 emp  Data
+        div.table.table-striped
+            table
+                thead
+                    th Sno
+                    th Name
+                    th Designation 
+                    th Age
+                tbody
+                    each x in emp 
+                        tr
+                            td= x.sno
+                            td= x.name
+                            td= x.designation 
+                            td= x.age 
+
+            h3.alert.alert-dark Programmed by #{programmer}
